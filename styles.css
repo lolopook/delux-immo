@@ -1,0 +1,594 @@
+/* design général */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'inter', sans-serif;
+}
+
+.selected {
+    color: #F21E6A;
+}
+
+button {
+    cursor: pointer;
+}
+
+.black {
+    color: #484848;
+}
+
+.pink {
+    color: #F21E6A;
+}
+
+.smallP {
+    font-weight: 300;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.btnSelected {
+    background-color: #F21E6A;
+    color: #F8F8F8;
+
+    border: #F21E6A;
+}
+
+
+/* design header */
+
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    background-color: #484848;
+    color: #F8F8F8;
+    height: 49px;
+    width: 100%;
+}
+
+.topbarConainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+
+    width: 70%;
+    
+    margin: auto 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    width: 33%;
+    font-size: 15px;
+    
+    margin: auto 5px;
+    padding-right: 20px;
+}
+
+
+.socialMedia{
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+/* desing nav */
+.navbarlink > a {
+    text-decoration: none;
+    color: #000000;
+
+    padding: 5px 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+    margin-top: 6px;
+    margin-bottom: 6p;
+
+    margin: 0 auto;
+}
+
+.navbarlink {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+
+    margin: auto 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.headLogoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logoTop{
+    width: 50px;
+    height: 62px;
+}
+
+.titleOne {
+    color: #F21E6A;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.headerTextEnseigne {
+    font-weight: 300;
+    font-size: 10px;
+}
+
+#selected {
+    color: #F21E6A;
+}
+
+
+/* hero */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+
+    background-image: url(./images/bg.png);
+    height: 510px;
+
+}
+
+.midleLink > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+
+    text-transform: uppercase;
+
+    height: 38px;
+}
+
+.text > h3{
+    font-weight: 600;
+}
+
+.text p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.midleLink {
+    border: solid 1px rgba(0, 0, 0, 0.25);
+    background:rgba(0, 0, 0, 0.53);
+    color: #F8F8F8;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 625px;
+    height: 244px;
+
+    margin: auto;
+
+    font-size: 1.2em;
+}
+
+
+.btnMoreDetail > button {
+    border: solid 1px #F21E6A;
+    border-radius: 5px;
+
+    background-color: #F21E6A;
+
+    width: 162px;
+    height: 32px;
+    margin-top: 15px;
+
+    font-weight: 500;
+    font-size: 14px;
+}
+
+button > a {
+    text-decoration: none;
+    color: #F8F8F8;
+    
+}
+
+/* Design Formulaire */
+
+.formContainer {
+    width: 900px;
+    height: 178px;
+    margin: -90px auto;
+
+    position: relative;
+
+}
+
+.formContainer > button {
+    width: 77px;
+    height: 33px;
+
+}
+
+.noSelect{
+    background-color: #F8F8F8;
+    border-bottom: none;
+
+    border: #F8F8F8;
+}
+
+.containerTopBot {
+    box-shadow:0 4px 11px 3px rgba(0, 0, 0, 0.15);
+
+    background-color: #F8F8F8;
+    
+    width: 900px;
+    height: 178px;
+}
+
+.formTop, .formBottom{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+
+select {
+    width: 189px;
+    height: 44px;
+
+    margin: 30px 12.5px 0 0;
+}
+
+form > button {
+    width: 189px;
+    height: 44px;
+    margin: 30px 12.5px 0 0;
+
+    border: none;
+
+    background-color: #F21E6A;
+    color: #F8F8F8;
+}
+
+/* prestation */
+
+.prestation {
+    display: flex;
+    flex-direction: column;
+
+    height: 551px;
+
+    background: #F7F7F7;
+}
+
+.prestaContainer {
+    
+    margin-top: 170px;
+
+    text-align: center;
+
+    justify-content: center;
+}
+
+.iconeCard {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 40px auto;
+
+    width: 1140px;
+}
+
+.icone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    width: 188px;
+}
+
+.icone > p {
+    font-size: 10px;
+    color: #666666;
+}
+
+.icone > h3 {
+    font-size: 18px;
+    padding: 10px;
+
+    font-weight: 600;
+}
+
+.iconeFont {
+    color: #F21E6A;
+    font-size: 3em;
+}
+
+/* Card presentation */
+
+.titleNew {
+    margin-top: 80px;
+}
+
+.cardMain {
+    height: 608px;
+    text-align: center;
+}
+
+.cardContainer {
+    width: 1420px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto;
+}
+
+.card {
+    width: 187px;
+    height: 265px;
+
+    position: relative;
+
+    margin: 80px 50px;
+    border-radius: 7px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.card > img {
+    border-radius: 5px 5px 0 0;
+
+    width: 187px;
+    height: 121px;
+}
+
+.newAnnoncedCard {
+    position: absolute;
+    translate: -100% 100%;
+    width: 30%;
+}
+
+.newAnnoncedCard {
+    width: 75px;
+    height: 25px;
+
+    border-radius: 45% 0 0 45%;
+
+    color: #F7F7F7;
+    background-color: #F21E6A;
+
+    font-weight: 300;
+
+    border: none;
+}
+
+.cardDescription {
+    text-align: center;
+    margin-top: 13px;
+    
+    display: flex;
+    flex-direction: column;
+
+    color: #F21E6A;
+}
+
+.iconeCardPresentation {
+    margin-top: 10px;
+
+    width: auto;
+    color: #444444;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.iconeCard > span {
+    margin: 10px 10px;
+}
+
+.price {
+    color: #444444;
+
+    margin-top: 10px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    text-align: center;
+}
+
+.btnCard {
+    text-align: center;
+}
+
+.btnCard > button{
+    margin-top: 10px;
+
+    height: 25px;
+    width: 63px;
+
+    color: white;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+
+    border: none;
+    background: #F21E6A;
+    border-radius: 4px;
+}
+
+/* design button carousel */
+
+.btnCarousel {
+    margin: auto 0;
+
+    width: 50px;
+    height: 50px;
+
+    font-size: 1.5em;
+    border: 3px solid #F21E6A;
+    border-radius: 5px;
+
+    background-color: #F8F8F8;
+
+    color: #F21E6A;
+}
+
+/* search by department */
+
+.galery {
+    width: 100%;
+    height: 615px;
+
+    background-color: #F7F7F7;
+
+    text-align: center;
+}
+
+.galery h2 {
+    padding-top: 80px;
+}
+
+/* design gallery image */
+
+.containerImageGalery {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.imageGalery{
+    position: relative;
+
+    margin-top: 50px;
+
+    width: 308px;
+    height: 153px;
+
+}
+
+.imageGalery > img {
+    border: 2px solid transparent;
+}
+
+.imageGalery > img:hover {
+    border: 2px solid #F21E6A;
+
+    object-fit: cover;
+}
+
+.imageGalery > button {
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
+    transform: translate(-50%);
+
+    margin-top: 119px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 26px;
+    width: 140px;
+
+    background-color: #F21E6A;
+    border: none;
+    border-radius: 7px;
+}
+
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 542px;
+
+    background-color: #484848;
+    color: #F7F7F7;
+}
+
+.footerContainer {
+    margin-top: 310px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 20px;
+
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+    border-top: 3px solid #F8F8F8;
+}
+
+.sarlPetit {
+    font-size: 16px;
+}
+
+.falseTitle {
+    font-size: 24px;
+}
+
+.litleText {
+    font-size: 12px;
+    font-weight: 300;
+    Line-height : 14.52px
+}
+
+/* boutton footer*/
+
+.footer > button {
+    margin-left: 91%;
+    margin-top: 30px;
+
+    background-color: #444444;
+    border: none;
+
+    border-radius: 50%;
+}
+
+.copyrightGreta {
+    margin-top: auto;
+}
