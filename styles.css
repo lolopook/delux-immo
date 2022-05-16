@@ -112,6 +112,8 @@ button {
 }
 
 .logo {
+    margin: 6px 0 6px 0;
+
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -469,6 +471,11 @@ form > button {
     color: #F21E6A;
 }
 
+#btnCarouselRight {
+    color: rgba(242, 30, 106, 0.35);
+    
+    border: 3px solid  rgba(242, 30, 106, 0.35);
+}
 /* search by department */
 
 .galery {
