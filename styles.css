@@ -596,6 +596,6 @@ form > button {
     border-radius: 50%;
 }
 
-.copyrightGreta {
-    margin-top: auto;
+.copyrightGreta > p{
+    margin-top: 6px;
 }
